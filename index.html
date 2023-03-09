@@ -1,73 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emin Martirosyan's Portfolio</title>
-
-
-<head>
-    <title>Emin Martirosyan's Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  </head>
-    
-</body>
-    <header id="Home">
-
-        <div class="Welcome">
-            <h1>
-                Emin Martirosyan <br /> Full Stack<br />Developer
-            </h1>
-            <img src=""> my photo;
-        </div>
-        <img src="">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a><li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <content>
-        <section id="about" class="infocard">
-            <h2 class="align-top">About Me</h2>
-            <p>
-                My name is Emin Martirosyan. I'm a bilingual Armenian-American born and raised in Los Angeles, CA. I am an experienced professional with a diverse work history in the corporate world. I've held various leadership roles at multiple organizations and have established myself as a skilled business executive. In addition to working for several companies, I has also served as a CEO at a structural steel company, where my team successfully led the organization through a period of growth and expansion. Throughout my career, I've always demonstrated a strong ability to drive business results through strategic planning, effective communication, and a commitment to excellence. 
-      
-                Now I will become a highly skilled Full Stack Developer with an extensive background in software development. A Full Stack Developer is someone who is proficient in both front-end and back-end web development, meaning they have a thorough understanding of all layers of a web application, from server-side logic and database management to client-side scripting and user interface design. By the end of the course, i will have a deep understanding of programming languages such as HTML, CSS, JavaScript etc. With a passion for problem-solving, creativity, and innovation, I am always up-to-date with the latest technologies and best practices in software development, making them a valuable asset to any team or organization.
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<h1>Emin Martirosyan</h1>
+            <p>Full Stack Developer</p>
+			<p>Explore my work and learn more about me.</p>
+            <img src="./images/IMG_0019.jpg">
+		</div>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is Emin Martirosyan. I'm a bilingual Armenian-American born and raised in Burbank, CA. I am an experienced professional with a diverse work history in the corporate world. I've held various leadership roles at multiple organizations and have established myself as a skilled business executive. In addition to working for several companies, I has also served as a CEO of a structural steel company, where my team successfully led the organization through a period of growth and expansion. Throughout my career, I've always demonstrated a strong ability to drive business results through strategic planning, effective communication, and a commitment to excellence. 
+        <p>
+            Now I will become a highly skilled Full Stack Developer with an extensive background in software development. A Full Stack Developer is someone who is proficient in both front-end and back-end web development, meaning they have a thorough understanding of all layers of a web application, from server-side logic and database management to client-side scripting and user interface design. By the end of the course, i will have a deep understanding of programming languages such as HTML, CSS, JavaScript etc. With a passion for problem-solving, creativity, and innovation, I am always up-to-date with the latest technologies and best practices in software development, making them a valuable asset to any team or organization.
             </p>
-        </section>
-        <section>
-            <section id="Projects" class="infocard">
-                <h2 class="align-top">My Projects</h2>
-                <p>
-                    Horiseon Code Refactor
-                </p>
-                <img src=""> screenshot;
-            </section>
-        </section>
-        <section>
-            <section id="Contact" class="infocard">
-                <h2 clas="align-top">Contact</h2>
-                <p>
-                    Emin Martirosyan;
-                    Cell: 818.636.4498;
-                    E-mail: em.martirosyan@gmail.com;
-                    Git-hub: https://github.com/em1nm;
-                </p>
-            </section>
-    </content>
-</body>
-
-<footer>
-    @Emin Martirosyan 2023
-</footer>
-</html>
-
-   
+			<p>When I'm not coding, you can find me spending time with my family, attending sporting events, playing piano, playing video games or trying out new recipes in the kitchen.</p>
+			<a href="#" class="cta">Download My Resume</a>
+		</section>
+		<section id="projects">
+			<h2>My Projects</h2>
+			<div class="project">
+				<img src="./images/Horiseon.Web.Screen.Shot.jpg" id="project1" alt="Project 1">
+				<div class="project-details">
+					<h3>Project 1: Horiseon Code Refactor
+                    </h3>
+					<p>In this project, we begin by receiving code to a running website. A marketing agency would like me to modify their current website to meet accessibility standards optimal for search engines. In this project, I viewed the source code and found semantic HTML elements to find a better structure of styling and positioning and meet the agency's needs. Refactoring existing code consists of taking someone's code and improving it without changing it's functionality. I created a new header with functional tabs, change elements to follow a more fluid structure by changing styling and positioning and find accessible alternative attributes.</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./images/coming_soon.jpg" alt="Project 2">
+				<div class="project-details">
+					<h3>Project 2</h3>
+					<p>TBD</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+			<div class="project">
+				<img src="./images/coming_soon.jpg" alt="Project 3">
+				<div class="project-details">
+					<h3>Project 3</h3>
+					<p>TBD</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+			<a href="#" class="cta">View More Projects</a>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+            <p> Emin Martirosyan
+                <p>Cell: 818.636.4498</p>
+                <p> E-Mail: em.martirosyan@gmail.com</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label 
+                input>
+            </label>Message:</label>
+				<textarea id="message"
+                ></textarea>
